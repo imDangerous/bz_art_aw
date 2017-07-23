@@ -13,12 +13,16 @@ if (__DEV__) {
 configureScreen(store, Provider);
 
 const navigatorStyle = {
-	navBarTranslucent: true,
-	drawUnderNavBar: true,
-	navBarTextColor: 'white',
-	navBarButtonColor: 'white',
+	tabBarBackgroundColor: '#000000',
+	navBarButtonColor: '#ffffff',
+	tabBarButtonColor: '#ffffff',
+	navBarTextColor: '#ffffff',
+	tabBarSelectedButtonColor: '#ff505c',
+	navigationBarColor: '#000000',
+	navBarBackgroundColor: '#000000',
+	statusBarColor: '#002b4c',
 	statusBarTextColorScheme: 'light',
-	drawUnderTabBar: true
+	tabFontFamily: 'BioRhyme-Bold',
 };
 
 Navigation.startSingleScreenApp({

@@ -54,10 +54,10 @@ export default class HomeScreen extends PureComponent {
 		return (
 			<View style={{
 				flex: 1,
-				backgroundColor: 'black',
+				backgroundColor: '#000000',
 				...Platform.select({
 					ios: {
-						paddingTop: 64
+						paddingTop: 0
 					}
 				})
 			}}>
